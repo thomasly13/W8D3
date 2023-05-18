@@ -1,5 +1,6 @@
 Function.prototype.myBind = function(context) {
   // return context.this;
+  debugger
   return () => {
     return this.apply(context);
   }
